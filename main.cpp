@@ -48,7 +48,7 @@ int main() {
 
         // Show the frame in OpenCV window
         cv::imshow("RealSense OpenCV", image);
-        cv::imshow("Depth Image", depth_image_normalized);        
+        cv::imshow("Depth Image", depth_image_normalized);
       
         cv::waitKey(1);
     }
